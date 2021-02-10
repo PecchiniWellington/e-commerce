@@ -1,10 +1,12 @@
 import React from "react";
-import './Homepage.styles.scss';
+import Directory from "../../components/directory/DIrectory.component";
+import "./Homepage.styles.scss";
 
 const HomePage = () => (
   <div className='homepage'>
-    <div className='directory-menu'>
-      <div className='menu-item'>
+    <Directory />
+      
+      {/* <div className='menu-item'>
         <div className='content'>
           <h1 className='title'>HATS</h1>
           <span className='subtitle'>SHOP NOW</span>
@@ -33,8 +35,8 @@ const HomePage = () => (
           <h1 className='title'>WOMEN</h1>
           <span className='subtitle'>SHOP NOW</span>
         </div>
-      </div>
-    </div>
+      </div> */}
+    
   </div>
 );
 
